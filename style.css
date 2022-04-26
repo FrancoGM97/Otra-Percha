@@ -1,0 +1,140 @@
+*{ 
+    margin: 0; 
+    padding: 0;
+}
+.header{
+    background-color: black;  
+    position: grid; 
+    top: 0; 
+} 
+.perchalogo { 
+    width: 300px; 
+    height: 300px;
+    flex: block;
+} 
+
+.header__menu{ 
+    display:flex; 
+    justify-content: space-evenly;
+}
+.header__menu li{ 
+    list-style: none; 
+    padding: 0%;
+} 
+.header__menu li a{ 
+    text-decoration: none; 
+    color: white 
+} 
+.header__submenu{ 
+    display: none; 
+    position: absolute; 
+    background-color: black;
+} 
+.header__submenu li{ 
+    padding: 15px
+} 
+.header__menu--submenu{ 
+    position: relative;
+}
+.header__menu--submenu:hover .header__submenu { 
+display: block;
+} 
+
+p{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+} 
+.footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+    padding: 25px 0;
+    background-color: rgb(109, 108, 108);
+  }
+  .footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+  }
+  .footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }  
+  .galeria{ 
+      margin: 40px; 
+      display: grid; 
+      grid-template-columns: 40%;
+      grid-template-rows: max-content; 
+      grid-column:left;   
+      
+  }   
+
+   .galeria__imagen{ 
+       width: 300px; 
+       height: 350px;
+   }
+    .entregas{ 
+        margin: 60px; 
+        display: grid; 
+        grid-template-columns: 90%; 
+        
+    } 
+    .formulario { 
+        margin: 60px auto; 
+        display: grid; 
+        grid-template-rows: 40%; 
+        grid-template-areas: initial;  
+        
+        
+    }
+  .bgimagen{ 
+      background-image: url("./imagenes/Log\ otra\ percha.png"); 
+  }
+   
+  @media only screen and (max-width:798) { 
+     .header__menu {  
+         position: relative;
+         font-size: 18px; 
+         height: max-content; 
+         justify-content: space-around;
+         
+
+     }  
+     .bgimagen { 
+         background-image: none;
+     }
+     .footer { 
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        padding: 25px;
+        background-color: rgb(109, 108, 108);
+     } 
+     .formulario { 
+         justify-content: center; 
+     } 
+     .galeria { 
+         display:grid; 
+         margin-top: 20px;
+         grid-template-columns:100%;
+       
+     }  
+     .galeria__imagen { 
+         width: fit-content; 
+         height: fit-content;
+     } 
+     
+     .perchalogo{ 
+         width: 220px; 
+         height: 200px;
+     } 
+     .mapaframe { 
+         width: 100px; 
+         height: 150px;
+     }
+
+ 
+    }
+
