@@ -3,7 +3,8 @@
     padding: 0;
 }
 .header{
-    background-color: black;  
+    background-color: black;
+    background-image: linear-gradient(violet, red ); 
     position: grid; 
     top: 0; 
 } 
@@ -48,7 +49,8 @@ p{
     bottom: 0%;
     width: 100vw;
     padding: 25px 0;
-    background-color: rgb(109, 108, 108);
+    background-image: linear-gradient(yellow, blue); 
+    transform: scale(1);
   }
   .footer ul{
     list-style: none;
@@ -73,7 +75,8 @@ p{
 
    .galeria__imagen{ 
        width: 300px; 
-       height: 350px;
+       height: 350px; 
+       transform: scale(1);
    }
     .entregas{ 
         margin: 60px; 
