@@ -1,0 +1,30 @@
+$color-principal: pink; 
+$flex-column: column; 
+
+$tamanio-total: 100%; 
+$tamanio-medio: $tamanio-total/2;  
+$tamanio-cuarto: $tamanio-medio/2; 
+
+/* EXTEND */ 
+
+%flex-center{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+};  
+@mixin flexbox ($direction, $justify, $align){ 
+    display: flex;
+    direction: $direction;
+    justify-content: $justify; 
+    align-items: $align;
+} 
+
+/* MAPS*/ 
+$tamanio-tipografia:( 
+    titulos: 25px, 
+    subtitulos: 20px, 
+    parrafos: 14px, 
+)
+
+
+

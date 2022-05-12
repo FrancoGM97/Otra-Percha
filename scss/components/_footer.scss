@@ -6,7 +6,7 @@
     padding: 10px 0; 
 
     .ul{ 
-        font-size: 15px; 
+        font-size: map-get($tamanio-tipografia, titulos); 
         display: flex; 
         @extend %flex-center
     } 
