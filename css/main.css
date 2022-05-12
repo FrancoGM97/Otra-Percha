@@ -1,8 +1,13 @@
 .footer {
-  background-color: aqua; }
-
-.footer ul {
-  font-size: 15px; }
+  background-color: pink;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding: 10px 0; }
+  .footer .ul {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between; }
 
 .header {
-  color: blueviolet; }
+  color: pink; }

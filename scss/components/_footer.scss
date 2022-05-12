@@ -1,7 +1,16 @@
 .footer{ 
-    background-color: aqua;
+    background-color: $color-principal; 
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px 0; 
+
+    .ul{ 
+        font-size: 15px; 
+        display: flex; 
+        justify-content: space-between;
+    } 
+
+    
 } 
- .footer ul{ 
-     font-size: 15px; 
-     
- }
+ 
