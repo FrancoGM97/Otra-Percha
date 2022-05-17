@@ -5,15 +5,74 @@
   align-items: center; }
 
 /* MAPS*/
+.logo {
+  width: 150px;
+  border-radius: 5px; }
+
+/* seccion ropa */
+.rounded-float-end {
+  width: 300px;
+  height: 400px; }
+
+.rounded-float-start {
+  width: 300px;
+  height: 400px; }
+
 .footer {
   background-color: pink;
-  position: fixed;
+  position: static;
   bottom: 0%;
   width: 100%;
-  padding: 10px 0; }
+  padding: 1px 0; }
   .footer .ul {
     font-size: 25px;
     display: flex; }
 
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px; }
+
 .header {
   color: pink; }
+
+.nav-link {
+  font-size: 26px; }
+
+.formulario {
+  margin: 60px auto;
+  display: grid;
+  grid-template-rows: 40%;
+  grid-template-areas: initial; }
+
+/* animacion pagina contacto*/
+.escena {
+  width: 500px;
+  height: 600px;
+  position: relative; }
+
+.escena img {
+  position: absolute; }
+
+.city {
+  bottom: -3px;
+  width: 100%;
+  height: 50%;
+  object-fit: cover; }
+
+.cloud {
+  animation: clouds-move 50s  linear forwards; }
+
+.cloud-1 {
+  width: 70px;
+  top: 0;
+  left: 30px; }
+
+.cloud-2 {
+  width: 35px;
+  top: 20px;
+  left: 125px; }
+
+@keyframes clouds-move {
+  to {
+    transform: translateX(-25px); } }

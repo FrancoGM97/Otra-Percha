@@ -1,9 +1,9 @@
 .footer{ 
     background-color: $color-principal; 
-    position: fixed;
+    position: static;
     bottom: 0%;
     width: 100%;
-    padding: 10px 0; 
+    padding: 1px 0; 
 
     .ul{ 
         font-size: map-get($tamanio-tipografia, titulos); 
@@ -12,5 +12,10 @@
     } 
 
     
-} 
+}  
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  } 
  
