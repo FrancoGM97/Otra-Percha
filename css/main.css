@@ -10,14 +10,6 @@
   border-radius: 5px; }
 
 /* seccion ropa */
-.rounded-float-end {
-  width: 300px;
-  height: 400px; }
-
-.rounded-float-start {
-  width: 300px;
-  height: 400px; }
-
 .footer {
   background-color: pink;
   position: static;
