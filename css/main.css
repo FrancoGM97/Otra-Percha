@@ -9,7 +9,6 @@
   width: 150px;
   border-radius: 5px; }
 
-/* seccion ropa */
 .footer {
   background-color: pink;
   position: static;
@@ -22,7 +21,7 @@
 
 .footer a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 24px; }
 
 .header {
@@ -39,8 +38,8 @@
 
 /* animacion pagina contacto*/
 .escena {
-  width: 500px;
-  height: 600px;
+  width: 350px;
+  height: 400px;
   position: relative; }
 
 .escena img {
@@ -49,8 +48,7 @@
 .city {
   bottom: -3px;
   width: 100%;
-  height: 50%;
-  object-fit: cover; }
+  height: 50%; }
 
 .cloud {
   animation: clouds-move 50s  linear forwards; }
