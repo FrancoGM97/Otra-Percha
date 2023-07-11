@@ -1,0 +1,21 @@
+.footer{ 
+    background-color: $color-principal; 
+    position: static;
+    bottom: 0%;
+    width: 100%;
+    padding: 1px 0; 
+
+    .ul{ 
+        font-size: map-get($tamanio-tipografia, titulos); 
+        display: flex; 
+        @extend %flex-center
+    } 
+
+    
+}  
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  } 
+ 

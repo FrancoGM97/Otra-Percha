@@ -1,0 +1,38 @@
+.formulario { 
+    margin: 60px auto; 
+    display: grid; 
+    grid-template-rows: 40%; 
+    grid-template-areas: initial;     
+} 
+
+/* animacion pagina contacto*/ 
+
+.escena { 
+    width: 350px; height: 400px;
+    position: relative; 
+    
+   } 
+   .escena img { 
+     position:absolute
+   } 
+    .city { 
+      bottom: -3px; width: 100%;
+      height: 50%;
+    } 
+     
+    .cloud { 
+      animation: clouds-move 50s 
+      linear forwards; 
+    }
+    .cloud-1 { 
+      width: 70px; top: 0; left: 30px; 
+    }
+   .cloud-2 { 
+     width: 35px; top: 20px; left: 125px;
+   }
+   
+   @keyframes clouds-move { 
+     to{ 
+       transform: translateX(-25px);
+     }
+   } 
